@@ -23,6 +23,7 @@ const Index = () => {
           </Text>
           <Button colorScheme="teal" size="lg">Contact Me</Button>
           <Button as={Link} to="/pride-lending-graphs" colorScheme="teal" size="lg">View Pride Lending Graphs</Button>
+          <Button as={Link} to="/confetti" colorScheme="teal" size="lg">Go to Confetti Page</Button>
         </Box>
         <HStack spacing={4}>
           <IconButton aria-label="GitHub" icon={<FaGithub />} size="lg" />
