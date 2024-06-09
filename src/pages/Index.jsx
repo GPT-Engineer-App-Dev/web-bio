@@ -1,4 +1,5 @@
 import { Container, Text, VStack, Box, Heading, Button, Image, HStack, IconButton } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
             Passionate developer with experience in building web applications using modern technologies.
           </Text>
           <Button colorScheme="teal" size="lg">Contact Me</Button>
+          <Button as={Link} to="/pride-lending-graphs" colorScheme="teal" size="lg">View Pride Lending Graphs</Button>
         </Box>
         <HStack spacing={4}>
           <IconButton aria-label="GitHub" icon={<FaGithub />} size="lg" />
